@@ -66,7 +66,7 @@ SELECT LEFT(email, POSITION('@' IN email)-1) as 'левая_часть_email',
 RIGHT(email, CHAR_LENGTH(email)-POSITION('@' IN email))  as 'правая_часть_email'
 FROM sakila.customer;
 ```
-<details>
+
 <summary>Подробнее ...</summary>
 ### Задание 6*
 
