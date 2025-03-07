@@ -48,10 +48,11 @@ SELECT * FROM payment WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005
 <details>
 <summary>Скрины</summary>
 
-![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/2.1.png) 
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/2.1.png)   
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/2.2.png)   
 </details>
+
 
 ### Задание 3
 
@@ -62,10 +63,12 @@ SELECT * FROM rental ORDER BY rental_id DESC LIMIT 5;
 ```
 <details>
 <summary>Скрины</summary>
-![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/3.1.png)
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/3.1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/3.2.png)  
 </details>
+
 
 ### Задание 4
 
@@ -80,10 +83,12 @@ SELECT LOWER(REPLACE(first_name, 'LL', 'PP')) AS Имя, LOWER(last_name) AS Ф�
 ```
 <details>
 <summary>Скрины</summary>
+
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.2.png)  
 <details>
+
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
@@ -100,6 +105,7 @@ FROM sakila.customer;
 
 <details>
 <summary>Скрины</summary>
+
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.2.png)  
