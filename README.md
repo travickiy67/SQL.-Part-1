@@ -33,6 +33,7 @@ SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.1.png)  
+</details>
 
 
 ### Задание 2
