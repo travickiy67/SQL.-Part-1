@@ -30,11 +30,11 @@ SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT
 <details>
 <summary>Скрин 1-2</summary>
 
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.png)  
+
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.1.png)  
 
-![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.2.png)  
 
-</details>
 ### Задание 2
 
 Получите из таблицы платежей за прокат фильмов информацию по платежам, которые выполнялись в промежуток с 15 июня 2005 года по 18 июня 2005 года **включительно** и стоимость которых превышает 10.00.
