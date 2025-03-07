@@ -1,3 +1,4 @@
+
 # Травицкий Сергей
 # Домашнее задание к занятию «SQL. Часть 1»
 
@@ -28,7 +29,7 @@
 SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT LIKE '% %';
 ```
 <details>
-<summary>Скрин 1-2</summary>
+<summary>Скрины</summary>
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/1.png)  
 
@@ -43,6 +44,16 @@ SELECT DISTINCT district FROM address WHERE district LIKE 'K%a' AND district NOT
 ```
 SELECT * FROM payment WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005-06-18 23:59:59' AND amount > 10;
 ```
+
+<details>
+<summary>Скрины</summary>
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/2.1.png) 
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/2.2.png)   
+
+</details>
+
 ### Задание 3
 
 Получите последние пять аренд фильмов.
@@ -50,16 +61,32 @@ SELECT * FROM payment WHERE payment_date BETWEEN '2005-06-15 00:00:00' AND '2005
 ```
 SELECT * FROM rental ORDER BY rental_id DESC LIMIT 5;
 ```
+<details>
+<summary>Скрины</summary>
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/3.1.png)
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/3.2.png)  
+
+</details>
+
 ### Задание 4
 
-```
-SELECT LOWER(REPLACE(first_name, 'LL', 'PP')) AS Имя, LOWER(last_name) AS Фамилия FROM customer WHERE active = 1 AND (first_name LIKE 'Kelly' OR first_name LIKE 'Willie');
-```
 Одним запросом получите активных покупателей, имена которых Kelly или Willie. 
 
 Сформируйте вывод в результат таким образом:
 - все буквы в фамилии и имени из верхнего регистра переведите в нижний регистр,
 - замените буквы 'll' в именах на 'pp'.
+
+```
+SELECT LOWER(REPLACE(first_name, 'LL', 'PP')) AS Имя, LOWER(last_name) AS Фамилия FROM customer WHERE active = 1 AND (first_name LIKE 'Kelly' OR first_name LIKE 'Willie');
+```
+<details>
+<summary>Скрины</summary>
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.1.png)  
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.2.png)  
+
+<details>
 
 ## Дополнительные задания (со звёздочкой*)
 Эти задания дополнительные, то есть не обязательные к выполнению, и никак не повлияют на получение вами зачёта по этому домашнему заданию. Вы можете их выполнить, если хотите глубже шире разобраться в материале.
@@ -73,10 +100,17 @@ SELECT LEFT(email, POSITION('@' IN email)-1) as 'левая_часть_email',
 RIGHT(email, CHAR_LENGTH(email)-POSITION('@' IN email))  as 'правая_часть_email'
 FROM sakila.customer;
 ```
+
 <details>
-<summary>Подробнее ...</summary>
+<summary>Скрины</summary>
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.1.png)  
+
+![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.2.png)  
+
+<details>
+
 ### Задание 6*
 
 Доработайте запрос из предыдущего задания, скорректируйте значения в новых колонках: первая буква должна быть заглавной, остальные — строчными.
 
-</details>
+
