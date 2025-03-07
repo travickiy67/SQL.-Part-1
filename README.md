@@ -87,7 +87,7 @@ SELECT LOWER(REPLACE(first_name, 'LL', 'PP')) AS Имя, LOWER(last_name) AS Ф�
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/4.2.png)  
-<details>
+</details>
 
 
 ## Дополнительные задания (со звёздочкой*)
@@ -109,7 +109,7 @@ FROM sakila.customer;
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.1.png)  
 
 ![img](https://github.com/travickiy67/SQL.-Part-1/blob/main/img/5.2.png)  
-<details>
+</details>
 
 ### Задание 6*
 
